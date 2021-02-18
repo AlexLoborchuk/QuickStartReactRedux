@@ -1,0 +1,21 @@
+.edit_fullName{
+	margin: 10px;
+	width: 295px;
+	height: 35px;
+	border-radius: 7px;
+	padding: 5px
+}
+.edit_textarea{
+	margin: 10px;
+	width: 290px;
+	height: 155px;
+	border-radius: 7px;
+	padding:10px;
+}
+.save_button{
+	width: 150px;
+	height: 37px;
+	background-color: green;
+	color: white;
+	border-radius: 7px;
+}

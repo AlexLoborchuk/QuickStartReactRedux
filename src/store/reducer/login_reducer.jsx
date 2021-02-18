@@ -1,6 +1,6 @@
 	const CHANGE = 'CHANGE';
 
-let initialState = {email: "loboralex@gmail.com", pass: 'helo'}
+let initialState = {userId: null, email: null, login: null}
 	const loginReducer =(state = initialState, action)=>{
 		switch(action.type){
 		 	case CHANGE:
@@ -10,8 +10,9 @@ let initialState = {email: "loboralex@gmail.com", pass: 'helo'}
 		 	// 	pass: action.password
 		 	// }
 		 	let stateCopy = {...state}
+		 	stateCopy.userId = action.userId
 		 	stateCopy.email = action.email
-		 	stateCopy.pass = action.pass
+		 	stateCopy.login = action.pass
 				return stateCopy;
 			default:
 				return state;
@@ -20,4 +21,4 @@ let initialState = {email: "loboralex@gmail.com", pass: 'helo'}
 
 	export default loginReducer;
 
-	export const changeAC = (user)=>({type: "CHANGE", email: user.email, pass: user.pass})
+	export const changeAC = (user)=>({type: "CHANGE", userId: user.userId,email: user.email, pass: user.pass})

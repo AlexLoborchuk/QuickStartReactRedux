@@ -1,0 +1,45 @@
+.paginator{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.users_body{
+	display: flex;
+}
+.main_block_users{
+	flex-grow: 3;
+}
+.profile_body{
+	display: flex;
+	justify-content: space-around;
+	padding-left: 100px;
+	background-color: #CED4F9;
+	border-radius: 7px;
+}
+.follow_bottom{
+	margin: auto;
+	margin-right: 50px;
+	height: 25px;
+	width: 80px;
+	border-radius: 7px;
+	background: blue;
+	color: white;
+}
+.user_name{
+	margin-left: 10px;
+	margin-top: 50px;
+	width: 50px;
+}
+.avatar_small{
+	width: 140px;
+	height: 140px;
+	border-radius: 100px;
+}
+.number_pagination{
+	padding: 5px;
+}
+.active_number_page{
+	font-weight: bold;
+}

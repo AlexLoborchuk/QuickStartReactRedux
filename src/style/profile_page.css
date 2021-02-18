@@ -1,0 +1,56 @@
+.main_profile{
+	display: flex;
+	justify-content: space-between;
+	margin: 20px 50px 50px 0;
+}
+.main_block_profile{
+	padding-left: auto;
+	padding-right: auto;
+	flex-grow: 3;
+}
+.profile_image{
+	border-radius: 5px;
+}
+.button_place{
+	text-align: center;
+}
+.edit_button{
+	width: 150px;
+	height: 35px;
+	background-color: #859CAA;
+	color: #EBF6FC;
+	border-radius: 3px;
+}
+.text_simulator{
+	font-weight: 45px;
+	font-family: Courier;
+	text-align: center;
+	padding-bottom: 10px;
+}
+.friends_list{
+	width: 350px;
+	height: 150px;
+}
+.friends_title{
+	text-align: center;
+}
+.friends_body{
+	text-align: center;
+}
+.friends_image{
+	width: 150px;
+	height: 150px;
+	border-radius: 100px;
+}
+.friends_name{
+	font-family: arial;
+	font-size: 16px;
+}
+.title_description{
+	text-align: center;
+}
+.title_body{
+	font-family: arial;
+	font-size: 16px;
+	padding: 10px;
+}

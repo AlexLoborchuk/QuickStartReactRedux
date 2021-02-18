@@ -1,0 +1,45 @@
+ .body{
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	height: 625px;
+ }
+ .main_block{
+ 	width: 550px;
+ 	height: 320px;
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	flex-direction: column;
+ 	border: 2px solid grey;
+ 	border-radius: 70px;
+ }
+ .header_text{
+ 	font-family: Courier New;
+ 	font-size: 1.5rem;
+ 	margin: 15px;
+ }
+ .input{
+ 	width: 250px;
+ 	height: 20px;
+ 	padding-left:  10px;
+ 	border-radius: 7px;
+ 	margin: 4px;
+ }
+ .button_block{
+ 	display: flex;
+  	align-items: center;
+  	justify-content: center;
+  	margin-top: 20px;
+ }
+ .button {
+ 	width: 90px;
+ 	height: 30px;
+ 	background-color: #596DEA;
+ 	border-radius: 7px;
+ 	font-family: Courier New;
+ 	font-size: 1rem;
+ }
+ .captcha{
+ 	border-radius: 7px;
+ }
